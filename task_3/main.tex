@@ -1,0 +1,39 @@
+\documentclass[referat]{SCWorks}
+\input{preamble.sty}
+\setminted{
+    frame=lines,
+    framesep=2mm,
+    baselinestretch=1.2,
+    fontsize=\small,
+    linenos,
+    breaklines
+}
+\begin{document}
+\chair{математической кибернетики и компьютерных наук}
+\title{Компьютерный вирус понятие и классификация}
+\course{1}
+\group{111}
+\napravlenie{02.03.02 --- Фундаментальная информатика и информационные технологии}
+\studenttitle{студента}
+\author{Хохлова Ивана Александровича}
+\satitle{доцент, к.\,ф.-м.\,н.}
+\chname{С.\,В.\,Миронов}
+\satitle{доцент, к.\,ф.-м.\,н.} 
+\saname{А.\,С.\,Иванова}
+\date{2026}
+
+\secNumbering
+\maketitle
+\tableofcontents
+
+\intro
+\input{text/Введение}
+\input{text/Глава_1}
+\input{text/Глава_2}
+\conclusion
+\input{text/Заключение}
+
+\nocite{*}
+\bibliographystyle{ugost2003}
+\bibliography{thesis}
+\end{document}
